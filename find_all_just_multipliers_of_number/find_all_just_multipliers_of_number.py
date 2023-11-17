@@ -42,7 +42,7 @@ def find_just_x_in_arr(arr):
             answer_arr.append(x)
     if len(answer_arr) > 0:   
         print(f'Ответ: {answer_arr}')
-    else: print('У этого числа нет простых множителей кроме, возможно, самого числа')
+    else: print('У этого числа нет простых множителей')
 
 if __name__ == '__main__':
     find_just_x_in_arr(delete_double_x(find_multipliers_Y(decomposition_Y(int(input())))))
